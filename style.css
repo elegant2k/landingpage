@@ -92,6 +92,14 @@ nav a {
 
 .tekst2 {
   display: flex;
+  margin: 20px;
+  height: 120px;
+  text-align: center;
+}
+
+.tekst3 {
+  border: #1f235a solid;
+  display: flex;
 }
 .hero3 {
   display: flex;
@@ -109,11 +117,24 @@ nav a {
 }
 
 .hero4 {
-  background-color: #3882f6;
-  width: 500px;
+  /* justify-content: center; */
+  height: 100px;
+  background-color: #535687;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  padding: 80px;
+  align-items: center;
 }
 
 .boks5 {
+}
+.right {
+  width: 60px;
+  display: flex;
+  height: 20px;
+  text-align: center;
+}
+.right:hover {
+  background-color: #1f235a;
+  color: aliceblue;
 }
